@@ -117,5 +117,5 @@
 
 const friends = ["shohag", "Bappy"];
 const othersFriends = ["Rabby", "Rosul"];
-const newArray = [...friends, othersFriends];
+const newArray = [friends, ...othersFriends];
 console.log(newArray);
